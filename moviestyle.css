@@ -29,8 +29,15 @@ tr{
 td{
 	padding:1%;
 }
+
 a{
 	text-decoration:none;
+}
+a:hover{
+	color:#000000;
+}
+td:hover{
+	background-color: #FFC107;
 }
 th{
 	color: #FFBC00;
@@ -63,4 +70,7 @@ h3{
 }
 figure{
 	padding: 2%;
+}
+figure:hover{
+	width:75%;
 }
