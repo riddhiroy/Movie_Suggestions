@@ -1,17 +1,30 @@
 body{
 	font-family: calibri;
 	background: #ffffff;
+	padding-top: 0px;
+	margin-top: 0px;
 }
-h1{
+#main-heading{
+	height: 60px;
 	color: #FFBC00;
 	background: #000000;
 	text-align: center;
+	margin:0;
+	padding-top: 20px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	display: inline-block;
+	width: 100%;
 }
 .Intro{
+	margin-top: 100px;
+	display: block;
 	padding: 2%;
 	text-align: justify;
 	background: #0011;
 }
+
 h2, h3{
 	font-size: 200%;
 
@@ -70,4 +83,8 @@ h3{
 }
 figure{
 	padding: 2%;
+	transition: width 0.3s linear 0.5s;
+}
+figure:hover{
+	width:75%;
 }
